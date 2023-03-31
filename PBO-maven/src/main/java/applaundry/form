@@ -1,0 +1,41 @@
+Apa yang dibuat ?
+aplikasi laundry untuk membantu dalam transaksi dengan menggunakan Java. jadi aplikasi ini melakukan suatu proses penghitungan dan bukti nota virtual 
+yang langsung di kirim ke customer dari email owner supaya customer mengetahui rincian transaksi secara detail.
+
+Konsep PBO
+
+-------------------Variabel dan method
+
+------------------------Access Modifier
+di setiap kelas ada
+
+-----------------------Consctructor----------------------
+Terdapat di class hitung
+public hitung(int Paket,int TipeBaju,Double berat){
+    if (Paket == 0 && TipeBaju == 0){
+        Harga = 5000.0;
+
+    } else if (Paket == 1 && TipeBaju == 0){
+        Harga = 10000.0;
+
+    } else if (Paket == 0 && TipeBaju == 1){
+        Harga = 10000.0;
+
+    }else if (Paket == 1 && TipeBaju == 1){
+        Harga = 15000.0;
+
+    }
+}
+
+---------------------------Inheritance
+terdapat di class code sebagai parentzclass dan class customer sebagai childclass
+
+
+---------------------------Encapsulation
+di kelas customer
+
+Polymorphism
+-- di JFrame
+
+
+
