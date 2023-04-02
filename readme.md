@@ -5,3 +5,8 @@ Created by
 ⦁	Zolla Humicha Rizqiando	L200210189
 
 aplikasi managemen kasir laundry
+
+to run this app run the main class at
+Laundry-App-1.0/PBO-maven/src/main/java/com/laundry/PBOmaven/PboMavenApplication.java 
+
+and 
