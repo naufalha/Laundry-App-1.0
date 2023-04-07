@@ -13,6 +13,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.security.Permissions;
 import java.io.IOException;
+//this file wasnt neccessary anymore just for testing
 
 @SpringBootApplication
 public class emailMainclass {
@@ -36,9 +37,6 @@ public class emailMainclass {
     @EventListener(ApplicationReadyEvent.class)
 
     public void sendMail(){
-        //senderService.sendEmail(Email,"ini tes email",bodytest);
-        //senderService.sendEmail("l200210135@student.ums.ac.id","this was true email","word");
-
-
+        
     }
 }

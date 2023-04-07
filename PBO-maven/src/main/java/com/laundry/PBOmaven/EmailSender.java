@@ -13,7 +13,8 @@ public class EmailSender {
     public void sendEmail(String toEmail,String subject,String body){
 
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("naufalha48@gmail.com");
+///set bellow with your email 
+        message.setFrom("");
         message.setTo(toEmail);
         message.setText(body);
         message.setSubject(subject);
